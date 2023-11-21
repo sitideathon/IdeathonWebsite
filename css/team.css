@@ -147,6 +147,7 @@
 .card .content .back .des {
   font-size: 13px;
   padding: 20px 0px;
+  cursor: pointer;
 }
 
 .card .content .back .social-icon {
