@@ -1,0 +1,571 @@
+@import url("./timeline.css");
+@import url("./footer.css");
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-bg {
+    background: linear-gradient(
+    90deg,
+    rgba(42, 33, 204, 1) 0%,
+    rgba(141, 0, 196, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+    ) !important;
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: inherit;
+}
+
+
+/* Home Starts here*/
+
+
+/* Tracks */
+#tracks{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width:90vw;
+    margin: 10vh 0vw 0vh 10vw;
+    margin-top: -40%;
+}
+.tracks-left{
+    width:15vw;
+    height: 100%;
+    margin: auto 0;
+}
+
+.tracks-right{
+    margin-left: 50px;
+    width:75vw;
+}
+/* CSS reset */
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+
+/* Typography =======================*/
+
+
+/* Headings */
+
+
+/* Main heading for card's front cover */
+
+.card-front__heading {
+    font-size: 1.5rem;
+    margin-top: .25rem;
+}
+
+
+/* Main heading for inside page */
+
+.inside-page__heading {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+
+/* Mixed */
+
+
+/* For both inside page's main heading and 'view me' text on card front cover */
+
+.inside-page__heading,
+.card-front__text-view {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: .2rem;
+}
+
+.inside-page__heading--city,
+.card-front__text-view--city {
+    color: #175357;
+}
+
+.inside-page__heading--ski,
+.card-front__text-view--ski {
+    color: #175357;
+}
+
+.inside-page__heading--beach,
+.card-front__text-view--beach {
+    color: #1b575c;
+}
+
+.inside-page__heading--camping,
+.card-front__text-view--camping {
+    color: #175357;
+}
+
+
+/* Front cover */
+
+.card-front__tp {
+    color: #fafbfa;
+}
+
+
+/* For pricing text on card front cover */
+
+.card-front__text-price {
+    font-size: 1.2rem;
+    margin-top: -.2rem;
+}
+
+
+/* Back cover */
+
+
+/* For inside page's body text */
+
+.inside-page__text {
+    color: #333;
+    overflow: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* Icons ===========================================*/
+
+.card-front__icon {
+    fill: #fafbfa;
+    font-size: 3vw;
+    height: 3.25rem;
+    margin-top: -.5rem;
+    width: 3.25rem;
+}
+
+
+/* Buttons =================================================*/
+
+.inside-page__btn {
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    overflow: hidden;
+    padding: .7rem .75rem;
+    position: relative;
+    text-decoration: none;
+    transition: all .3s ease;
+    width: 90%;
+    z-index: 10;
+}
+
+.inside-page__btn::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(0);
+    transition: all .3s ease;
+    width: 100%;
+    z-index: -1;
+}
+.timeline .card{
+    box-shadow: 15px 15px 15px 0 #000 !important;
+}
+.inside-page__btn--city {
+    border-color: #ff40a1;
+    color: #ff40a1;
+}
+
+.inside-page__btn--city::before {
+    background-color: #ff40a1;
+}
+
+.inside-page__btn--ski {
+    border-color: #279eb2;
+    color: #279eb2;
+}
+
+.inside-page__btn--ski::before {
+    background-color: #279eb2;
+}
+
+.inside-page__btn--beach {
+    border-color: #fa7f67;
+    color: #fa7f67;
+}
+
+.inside-page__btn--beach::before {
+    background-color: #fa7f67;
+}
+
+.inside-page__btn--camping {
+    border-color: #00b97d;
+    color: #00b97d;
+}
+
+.inside-page__btn--camping::before {
+    background-color: #00b97d;
+}
+
+.inside-page__btn:hover {
+    color: #fafbfa;
+}
+
+.inside-page__btn:hover::before {
+    transform: scaleY(1);
+}
+
+
+/* Layout Structure=========================================*/
+
+.main {
+    background: linear-gradient( to bottom right, #eee8dd, #e3d9c6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* Container to hold all cards in one place */
+
+.card-area {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 90vw;
+    margin: 5vh auto;
+}
+
+
+/* Card ============================================*/
+
+
+/* Area to hold an individual card */
+
+.card-section {
+    align-items: center;
+    display: flex;
+    height: 120%;
+    justify-content: center;
+    width: 500px;
+    margin-top: 20px;
+}
+
+
+/* A container to hold the flip card and the inside page */
+
+.card {
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: 15px 15px 15px 0px rgba(21, 77, 109, 0.2) !important;
+    height: 15rem;
+    position: relative;
+    transition: all 1s ease;
+    width: 15rem;
+    margin-bottom: 5vh;
+}
+
+
+/* Flip card - covering both the front and inside front page */
+
+
+/* An outer container to hold the flip card. This excludes the inside page */
+
+.flip-card {
+    height: 15rem;
+    perspective: 100rem;
+    position: absolute;
+    right: 0;
+    transition: all 1s ease;
+    visibility: hidden;
+    width: 15rem;
+    z-index: 100;
+}
+
+
+/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
+
+
+/* This is done so content in the inside page can be selected */
+
+.flip-card>* {
+    visibility: visible;
+}
+
+
+/* An inner container to hold the flip card. This excludes the inside page */
+
+.flip-card__container {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    width: 100%;
+}
+
+.card-front,
+.card-back {
+    backface-visibility: hidden;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Styling for the front side of the flip card */
+
+
+/* container for the front side */
+
+.card-front {
+    background-color: #fafbfa;
+    height: 15rem;
+    width: 15rem;
+}
+
+
+/* Front side's top section */
+
+.card-front__tp {
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    justify-content: center;
+    /* padding: .75rem; */
+}
+
+.card-front__tp--city {
+    background: #fcf0db;
+}
+
+.card-front__tp--ski {
+    background: linear-gradient( to bottom, #47c2d7, #279eb2);
+}
+
+.card-front__tp--beach {
+    background: linear-gradient( to bottom, #fb9b88, #f86647);
+}
+
+.card-front__tp--camping {
+    background: linear-gradient( to bottom, #ffffff, #ffffff);
+}
+
+.card-front__tp--mobility {
+    background: linear-gradient( to bottom, #ffffff, #d3ced0);
+}
+
+
+/* Front card's bottom section */
+
+.card-front__bt {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Styling for the back side of the flip card */
+
+.card-back {
+    background-color: #fafbfa;
+    transform: rotateY(180deg);
+}
+
+
+/* Specifically targeting the <video> element */
+
+.video__container {
+    clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* Inside page */
+
+.inside-page {
+    background-color: #fafbfa;
+    box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.25);
+    height: 100%;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    transition: all 1s ease;
+    width: 15rem;
+    z-index: 1;
+}
+
+.inside-page__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Functionality ====================================*/
+
+
+/* This is to keep the card centered (within its container) when opened */
+
+.card:hover {
+    box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
+    width: 30rem;
+}
+
+
+/* When the card is hovered, the flip card container will rotate */
+
+.card:hover .flip-card__container {
+    transform: rotateY(-180deg);
+}
+
+
+/* When the card is hovered, the shadow on the inside page will shrink to the left */
+
+.card:hover .inside-page {
+    box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.1);
+}
+
+
+/* Timeline */
+
+.timeline .timeline-item .timeline-content .heading.is-date {
+    font-size: medium;
+}
+
+#timeline{
+    background: linear-gradient(
+        to bottom,
+        #fff 38%,
+        #3CC6F3 47%,
+        /* #6dc3ae 56%, */
+        #6dc383 60%
+       
+        );
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: inherit;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#timeline .blurrbg {
+    backdrop-filter: blur(5px);
+    min-width: inherit;
+    min-height: inherit;
+}
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width:540px){
+    #tracks{
+        width:100vw;
+        margin: 0%;
+    }
+    .tracks-left{
+        display: none;
+    }
+    .tracks-right{
+        width:100vw;
+    }
+    /* .card-section{
+        width:80vw;
+    } */
+    .card,.card-section{
+        width:80vw !important;
+    }
+    .card,.flip-card,.card-front,.card-back,.inside-page{
+        width:70vw !important;
+        height:240px;
+    }
+    .card-section:hover .flip-card{
+        width:40vw !important;
+    }
+    .card-section:hover .card-back{
+        width:40vw !important;
+    }
+    .card-section:hover .inside-page{
+        width:40vw !important;
+    }
+}

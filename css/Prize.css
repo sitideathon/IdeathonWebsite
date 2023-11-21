@@ -1,0 +1,151 @@
+.sponsors_wrapper {
+  height: inherit;
+  padding: 10vw 10vw 0 10vw;
+  margin-top: -12%;
+}
+
+.txt_container {
+  color: #175357;
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 80px;
+  line-height: 1;
+}
+
+.become_sponsor {
+  color: black;
+  width: 100%;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 100px 0px;
+}
+
+.become_sponsor a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.sponsor_grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.spons_container {
+  border-radius: 10px 10px 10px 10px;
+  padding: 1.25rem;
+  padding-top: 0.7rem;
+  margin-bottom: 25px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.spons_container h1 {
+  font-size: 1.8rem;
+  font-weight: 550;
+}
+
+.sponsor_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 3vw;
+  margin-top: 15px;
+}
+
+.spons {
+  width: 20%;
+  height: auto;
+  margin-top: 15px;
+  min-width: 90px;
+}
+
+.spons img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sec_spons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.color-d {
+  border: 2px solid white;
+  color: white;
+}
+
+.color-g {
+  border: 2px solid #ebb722;
+  color: #ebb722;
+}
+
+.color-p {
+  border: 2px solid #71a0ce;
+  color: #71a0ce;
+}
+
+.color-s {
+  border: 2px solid #8fa963;
+  color: #8fa963;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.color-i {
+  border: 2px solid #ff9966;
+  color: #ff9966;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.color-m {
+  border: 2px solid black;
+  color: white;
+  width: 100%;
+}
+
+.color-d {
+  justify-content: flex-start !important;
+}
+.spons_zz {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nootan {
+  width: 40% !important;
+  padding: 0 auto;
+  /* margin-left:auto !important;
+    margin-right:auto !important; */
+}
+.nootan_div {
+  margin: 0 auto;
+}
+
+.nn {
+  width: 60%;
+}
+
+@media (max-width: 747px) {
+  h1 {
+    font-size: 0.7rem !important;
+  }
+  .color-s,
+  .color-i {
+    width: 100%;
+  }
+  .spons img {
+    width: 100%;
+  }
+}
