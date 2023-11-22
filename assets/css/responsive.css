@@ -1,0 +1,392 @@
+@media (min-width: 1300px) {
+	.featurs-area .feature-right {
+	    right: 0;
+	}
+	.featurs-area .feature-left .shape-img{
+		display: none;
+	}
+}
+
+@media (max-width: 1600px) {
+	.testimonial-area .video-popup-area {
+	    width: 35%;
+	    top:-50px;
+	}
+	.testimonial-area-two .slide-testimonial {
+	    padding: 68px 70px 68px 70px;
+	}
+}
+@media (max-width: 1200px) {
+	.testimonial-area .video-popup-area {
+		position: inherit;
+		width: 100%;
+		margin-top:40px;
+	}
+	.testimonial-area .video-popup-area  img{
+		width: 100%;
+	}
+	.testimonial-area{
+		margin-top: 0px;
+	}
+	.featurs-area .feature-right {
+	    right: 0;
+	}
+	.featurs-area .feature-left .shape-img{
+		display: none;
+	}
+}
+@media (max-width: 1199px) {
+	.header-area .menu-ara .main-menu ul li a {
+		padding: 12px 15px;
+	}
+	.header-area .header-right .banner-btn {
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+	.featurs-area .feature-right {
+		right: 0;
+	}
+	.featurs-area .feature-left .shape-img{
+		display: none;
+	}
+	.price-area .single-price .price-header .price h2 {
+		font-size: 40px;
+	}
+	.card-img {
+		width:100%;
+		height: 100%;
+	}
+	.testimonial-area-two .slide-testimonial{
+		padding: 60px 20px 60px 20px;
+	}
+	.blog-page-area .blog-list .single-blog .card .card-body {
+		padding-left: 25px;
+		padding-top: 18px;
+	}
+	.blog-area .single-blog .card .card-body {
+		padding:0;
+		padding-left: 20px;
+		padding-top: 16px;
+	}
+
+
+}
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.blog-area .single-blog .card .card-body .card-title {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: .3rem;
+	}
+	.blog-area .single-blog .card .card-body .card-text {
+		margin-bottom: 5px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+   .header-area{
+		display: none;
+	}
+	.banner-area {
+		padding-top: 185px;
+		padding-bottom: 135px;
+	}
+	.banner-right-img {
+		margin-bottom: 50px;
+	}
+	.feature-right.text-right {
+		text-align: center !important;
+		margin-top: 30px;
+	}
+	.testimonial-area .slide-testimonial .owl-dots {
+		display: none;
+	}
+	.recent-product-area .slide-product .owl-dots {
+		display: none;
+	}
+	.testimonial-area{
+		margin-top: 0px;
+	}
+	.offer-area {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.featurs-area {
+		padding: 60px 0;
+	}
+	.recent-product-area {
+		padding-top: 52px;
+		padding-bottom: 25px;
+	}
+	.testimonial-area {
+		padding: 45px 0 60px 0;
+	}
+	.price-area {
+		padding-top: 52px;
+		padding-bottom: 60px;
+	}
+	.blog-area {
+		padding-top: 52px;
+	}
+	.partners-area {
+		padding: 60px 0;
+	}
+	.footer-area .footer-top {
+		padding-top: 25px ;
+		padding-bottom: 60px;
+	}
+	.section-title p br{
+		display: none;
+	}
+	.section-title h2 br{
+		display: none;
+	}
+	.fun-facts-area {
+		padding-top: 52px;
+		padding-bottom: 53px;
+	}
+	.offer-area-two .offer-img {
+		display: none;
+	}
+	.price-area-two{
+		padding-top: 52px;
+	}
+	.fun-facts-area-two {
+		padding-top: 52px;
+		padding-bottom: 60px;
+	}
+	.featurs-area-two .single-feature {
+		margin-bottom: 30px;
+	}
+	.banner-area-two {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+	.banner-right-img {
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+	.testimonial-area-two .slide-testimonial .owl-dots {
+		display: none;
+	}
+	.video-popup-area {
+		margin-bottom: 30px;
+	}
+	.product-page-area {
+	    padding-top: 52px;
+	    padding-bottom: 60px;
+	}
+	.breadcum-area .breadcum-text p br{
+		display: none;
+	}
+	.sidebar-area {
+		margin-top: 50px;
+	}
+	.card-img.img-fluid {
+		max-height: 245px;
+		width: 100%;
+	}
+	.blog-page-area {
+	    padding: 60px 0;
+	}
+	.single-blog-page {
+	    padding: 60px 0;
+	}
+	.contact-page-area {
+	    padding-top: 52px;
+	    padding-bottom: 60px;
+	}
+	.banner-area .banner-right-img{
+		margin-bottom: 30px;
+	}
+	.testimonial-area .testimonial-img {
+	    margin-bottom: 30px;
+	}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+	.offer-area {
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}	
+	.featurs-area {
+		padding: 40px 0;
+	}
+	.recent-product-area {
+		padding-top: 32px;
+		padding-bottom: 5px;
+	}
+	.testimonial-area {
+		padding: 25px 0 40px 0;
+	}
+	.price-area {
+		padding-top: 32px;
+		padding-bottom: 40px;
+	}
+	.blog-area {
+		padding-top: 32px;
+	}
+	.partners-area {
+		padding: 40px 0;
+	}
+	.fun-facts-area {
+		padding-top: 32px;
+		padding-bottom: 33px;
+	}
+	.price-area-two{
+		padding-top: 32px;
+	}
+	.fun-facts-area-two {
+		padding-top: 32px;
+		padding-bottom: 40px;
+	}
+	.testimonial-area-two .slide-testimonial {
+		padding: 40px 20px 40px 20px;
+	}
+	.product-page-area {
+	    padding-top: 32px;
+	    padding-bottom: 40px;
+	}
+	.blog-page-area {
+	    padding: 40px 0;
+	}
+	.single-blog-page {
+	    padding: 40px 0;
+	}
+	.single-blog-page .single-post .post-title h2 {
+		font-size: 26px;
+	}
+	.contact-page-area {
+	    padding-top: 32px;
+	    padding-bottom: 40px;
+	}
+	.contact-page-area .contact-form form .form-group textarea {
+		height: 250px;
+	}
+	.banner-area {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.blog-page-area .blog-list .single-blog .card .card-body {
+		padding-left: 25px;
+		padding-top: 18px;
+	}
+	.single-blog-page .single-post .post-meta p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.social-media.text-right {
+		text-align: left !important;
+		margin-top: 25px;
+	}
+	.blog-area .single-blog .card .card-body {
+	    padding-bottom: 20px;
+	}
+	.blog-page-area .blog-list .single-blog .card .card-body .card-title a br{
+		display: none;
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.featurs-area .feature-left .single-feature:hover {
+		transform: scaleX(1);
+	}
+	.banner-area .banner-text h1 {
+		font-size: 36px;
+	}
+	.testimonial-area .slide-testimonial .single-testimonial .testimonial-content h2 {
+		font-size: 32px;
+	}
+	.section-title h2 {
+		font-size: 32px;
+	}
+	.banner-area-two .banner-text h1 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.testimonial-area-two .slide-testimonial .single-testimonial .testimonial-content h2 {
+		font-size: 32px;
+	}
+	.single-blog-page .leave-comment h2 {
+		font-size: 32px;
+	}
+	.breadcum-area .breadcum-text h2 {
+		font-size: 32px;
+	}
+	.breadcum-area {
+		padding: 100px 0 50px 0;
+	}
+	.contact-page-area .contact-form form .form-group textarea {
+		height: 180px;
+	}
+	.banner-area {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.blog-page-area .blog-list .single-blog .card .card-body .card-title{
+		font-size: 20px;
+	}
+	.single-blog-page .single-post .post-meta p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 375px) {
+	.banner-area .banner-text h1 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.testimonial-area .slide-testimonial .single-testimonial .testimonial-content h2 {
+		font-size: 28px;
+	}
+	.recent-product-area .tab-menu .nav-tabs .nav-item {
+		margin: 0 0px;
+	}
+	.banner-area-two .banner-text h1 {
+		font-size: 32px;
+		line-height: 46px;
+	}
+	.testimonial-area-two .slide-testimonial .single-testimonial .testimonial-content h2 {
+		font-size: 28px;
+	}
+	.single-blog-page .comments-ara .single-comment .media{
+		display: block;
+		text-align: center;
+	}
+	.single-blog-page .comments-ara .single-comment .media .media-body{
+		margin-top: 30px;
+	}
+	.single-blog-page .leave-comment h2 {
+		font-size: 30px;
+	}
+	.single-blog-page .comments-ara {
+		padding: 60px 20px 60px 20px;
+	}
+
+}
+@media (max-width: 320px) {
+	.blog-area .single-blog .card .card-body .card-title {
+		font-size: 18px;
+	}
+	.blog-area .single-blog .card .card-body .card-text .blog-date {
+		font-size: 16px;
+	}
+
+	.section-title h2 {
+		font-size: 28px;
+	}
+	.banner-area-two .banner-text h1 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.single-blog-page .leave-comment h2 {
+		font-size: 28px;
+	}
+	.banner-area .banner-text h1 {
+	    font-size: 28px;
+	    line-height: 42px;
+	}
+}

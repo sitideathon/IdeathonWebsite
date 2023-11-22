@@ -1,0 +1,177 @@
+:root {
+	font-size: $bfSize;
+}
+html,
+body {
+	height: 100%;
+	font-family: $bodyFont;
+	font-weight: $fontWeight;
+	line-height: $blineHeight;
+	color: $bColor;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: $bodyFont;
+	font-weight: 700;
+}
+iframe {
+	border: none;
+}
+a,
+b,
+div,
+ul,
+li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	-moz-outline-: none;
+}
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active,
+select:focus,
+select:hover {
+    -moz-outline: none;
+    outline: none;
+    box-shadow: none;
+}
+img:not([draggable]),
+embed,
+object,
+video {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	text-decoration: none;
+	outline: 0;
+}
+a:active,
+a:focus,
+a:hover,
+a:visited {
+	text-decoration: none;
+	outline: 0;	
+}
+img {
+	border: none;
+	max-width: 100%;
+}
+button:focus {
+    -moz-outline: none;
+    outline: none;
+    box-shadow: none;
+}
+.section{padding: 120px 0}
+.section-top{padding: 120px 0 0}
+.section-bottom{padding: 0 0 120px 0}
+.btn.focus, .btn:focus{
+	border: 1px solid transparent;
+}
+
+.form-control:focus,
+.btn.focus, .btn:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+.acurate{
+	margin: 0;
+	padding: 0;
+}
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
+.alignleft {
+    float:left;
+    margin-right:15px;
+    margin-bottom: 24px;
+}
+.alignright {
+    float:right;
+    margin-left:15px;
+    margin-bottom: 28px;
+}
+.aligncenter {
+    display:block;
+    margin:0 auto 28px;
+}
+a:focus {
+    outline:0px solid;
+}
+.fix {
+    overflow:hidden;
+}
+p {
+    margin:0 0 28px;
+}
+a {
+     text-decoration:none;
+}
+a:hover {
+  color: $primary-color;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+  color: $hover-color;
+}
+ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+::-moz-selection {
+    background: $primary-color;
+    text-shadow: none;
+}
+::selection {
+    background: $primary-color;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 28px  0;
+    background: $primary-color;
+    color: #333333;
+    padding: 24px 0;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.pb-0 {
+    padding-bottom: 0!important;
+}
+
+.pt-0 {
+    padding-top: 0!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+.mt-0 {
+    margin-top: 0!important;
+}
+.mt-30{
+    margin-top: 30px;
+}
